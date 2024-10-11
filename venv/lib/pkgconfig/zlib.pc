@@ -1,0 +1,13 @@
+prefix=/home/igor/pythonBootcamp/venv
+exec_prefix=/home/igor/pythonBootcamp/venv
+libdir=/home/igor/pythonBootcamp/venv/lib
+sharedlibdir=/home/igor/pythonBootcamp/venv/lib
+includedir=/home/igor/pythonBootcamp/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
