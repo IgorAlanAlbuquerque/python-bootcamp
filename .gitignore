@@ -1,2 +1,4 @@
 packages/mypackage/__pycache__/
 packages/mypackage/subpackage/__pycache__/
+SQLite3/test.db
+SQLite3/backup.db
